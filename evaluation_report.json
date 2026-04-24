@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-04-23T23:20:29.475341",
+  "num_questions": 6,
+  "aggregate_metrics": {
+    "avg_retrieval_precision": 0.917,
+    "avg_groundedness": 0.366,
+    "avg_answer_relevance": 0.25,
+    "avg_latency_ms": 1816.6
+  },
+  "individual_results": [
+    {
+      "question": "What is the cancellation fee for Uber rides?",
+      "answer": "$5",
+      "latency_ms": 2511.0,
+      "retrieval_precision": 1.0,
+      "groundedness": 0.0,
+      "answer_relevance": 0.0,
+      "sources": [
+        "customer_billing_policy.txt",
+        "customer_billing_policy.txt",
+        "driver_earnings_policy.txt",
+        "driver_earnings_policy.txt"
+      ]
+    },
+    {
+      "question": "How often do Uber drivers get paid?",
+      "answer": "weekly",
+      "latency_ms": 1056.9,
+      "retrieval_precision": 1.0,
+      "groundedness": 1.0,
+      "answer_relevance": 0.25,
+      "sources": [
+        "driver_earnings_policy.txt",
+        "driver_earnings_policy.txt",
+        "driver_earnings_policy.txt",
+        "driver_earnings_policy.txt"
+      ]
+    },
+    {
+      "question": "What safety features does Uber have in the app?",
+      "answer": "RideCheck: Uber's technology detects unusual stops during a trip and automatically checks in with both driver and rider. If there is no response, Uber may contact emergency services. Emergency Button: Both riders and drivers have access to a red emergency button in the app that directly connects to local emergency services and shares the trip's GPS location.",
+      "latency_ms": 4447.2,
+      "retrieval_precision": 0.5,
+      "groundedness": 0.194,
+      "answer_relevance": 0.75,
+      "sources": [
+        "safety_protocols.txt",
+        "safety_protocols.txt",
+        "data_privacy_gdpr.txt",
+        "data_privacy_gdpr.txt"
+      ]
+    },
+    {
+      "question": "How long does Uber keep my personal data?",
+      "answer": "7 years for legal and tax purposes",
+      "latency_ms": 1214.2,
+      "retrieval_precision": 1.0,
+      "groundedness": 1.0,
+      "answer_relevance": 0.25,
+      "sources": [
+        "data_privacy_gdpr.txt",
+        "data_privacy_gdpr.txt",
+        "data_privacy_gdpr.txt",
+        "data_privacy_gdpr.txt"
+      ]
+    },
+    {
+      "question": "What rating must Uber Eats drivers maintain?",
+      "answer": "4.5 stars",
+      "latency_ms": 1098.1,
+      "retrieval_precision": 1.0,
+      "groundedness": 0.0,
+      "answer_relevance": 0.25,
+      "sources": [
+        "eats_delivery_guidelines.txt",
+        "eats_delivery_guidelines.txt",
+        "eats_delivery_guidelines.txt",
+        "eats_delivery_guidelines.txt"
+      ]
+    },
+    {
+      "question": "Does Uber provide insurance coverage for drivers?",
+      "answer": "yes",
+      "latency_ms": 572.1,
+      "retrieval_precision": 1.0,
+      "groundedness": 0.0,
+      "answer_relevance": 0.0,
+      "sources": [
+        "safety_protocols.txt",
+        "safety_protocols.txt",
+        "safety_protocols.txt",
+        "safety_protocols.txt"
+      ]
+    }
+  ]
+}
